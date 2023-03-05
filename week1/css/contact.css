@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@300&display=swap');
+.mainbox{
+    display: flex;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin-right: 50px;
+        margin-top: 10px;
+       
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 25px;
+        
+    }
+    nav ul li a:hover{
+        color:#7696a2
+    }
+    .searchbar{
+        margin-right: 50px;
+        margin-top: 10px;
+    }
+p{
+    font-family: 'Dancing Script', cursive;
+    color: #000000;  
+    font-size: 30px; 
+    width:600px;
+  height: auto;
+  padding: 20px;
+  margin-left: 500px;
+  background-color: #ffffff;
+        opacity: .5;
+        border-radius: 15px;
+        
+}
+.main{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    margin-top: 20px;
+    width: 100vw;
+    grid-template-columns: repeat(auto-fill,minmax(300px,300px));
+    column-gap: 20px;
+    row-gap: 30px;
+}
+.fb{
+    font-size: 40px;
+    color: #000000;
+    font-family: 'Dosis', sans-serif;
+    text-align:left;
+}
+.insta{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-family: 'Dosis', sans-serif;
+    text-align:center;
+}
+.fblogo{
+    width: 300px;
+    height: auto;
+}
+.instalogo{
+    width: 200px;
+    height: auto;
+}
